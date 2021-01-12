@@ -1,4 +1,4 @@
-# webapppro
+# Clinify Blogs site
 project
 
 The only purpose of this project is to gain real world project project expeirence.
