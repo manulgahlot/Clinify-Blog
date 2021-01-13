@@ -39,14 +39,16 @@ body {
 .card {
   margin: 8%;
   filter: grayscale(100%);
-  transition: 1s;
+  transition: 0.2s;
 }
 
 
 .card:hover {
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3);
   filter: grayscale(0);
-  transform: scale(1.2);
+  transform: scale(1.03);
 }
+
 
 .blog-img{
   height: 250px;
