@@ -31,7 +31,9 @@ body {
   margin: 70px 0 0 0;
 }
 
-
+.card-body {
+  background-color: #ffffff;
+}
 
 .card {
   margin: 8%;
