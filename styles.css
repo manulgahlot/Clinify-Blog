@@ -1,11 +1,18 @@
 body {
-  background-color: #f1f6f9;
+  /* background-color: #f1f6f9; */
+  background-color: #eeeeee;
 }
 .navbar {
-  background-color: #e8e8e8;
+  /* background-color: #d6e0f0; */
+  background-color: #f0f5f9;
 }
-.first-section, .carousel-item {
+.first-section {
    height: 500px !important;
+   margin: 5% 3% 3% 3%;
+}
+
+.carousel-item {
+  height: 500px !important;
 }
 
 .carousel-caption {
@@ -15,14 +22,31 @@ body {
   /* top: 10vh; */
 }
 
+
+
+/* second section start */
+
+
 .blog-container {
   margin: 70px 0 0 0;
 }
 
-.card {
-  margin: 3%;
+
+.card-body {
+  background-color: #ebfffa;
 }
 
+.card {
+  margin: 8%;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+
+.card:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
 
 .blog-img{
   height: 250px;
